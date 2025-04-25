@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: red;
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.light-bar {
+    display: flex;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 10px 0;
+}
+
+.light {
+    width: 120px;
+    height: 60px;
+    margin: 5px 5px;
+    background-color: white;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
